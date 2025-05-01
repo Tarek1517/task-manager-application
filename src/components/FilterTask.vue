@@ -22,13 +22,14 @@ const buttonClass = (filter) =>
   <div class="mb-4">
     <h2 class="mb-2 text-lg font-semibold">Filter Tasks</h2>
     <div class="flex gap-2">
-      <button @click="setFilter('all')" :class="buttonClass('all')">All</button>
-      <button @click="setFilter('completed')" :class="buttonClass('completed')">
+      <button @click="setFilter('all')" :class="buttonClass('all')" class="border-gray-400 cursor-pointer hover:bg-blue-100">All</button>
+      <button @click="setFilter('completed')" :class="buttonClass('completed')" class="border-gray-400 cursor-pointer hover:bg-blue-100">
         Completed
       </button>
       <button
         @click="setFilter('incomplete')"
         :class="buttonClass('incomplete')"
+        class="border-gray-400 cursor-pointer hover:bg-blue-100"
       >
         Incomplete
       </button>

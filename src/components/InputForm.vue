@@ -31,13 +31,14 @@ const addData = () => {
     <div class="mb-4 flex gap-2">
       <input
         v-model="form.title"
+        @keydown.enter="addData"
         type="text"
         placeholder="Enter task title"
-        class="flex-1 rounded border px-3 py-2"
+        class="flex-1 rounded border border-gray-300 px-3 py-2"
       />
       <button
         @click="addData"
-        class="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+        class="rounded bg-green-600 px-4 py-2 text-white hover:bg-black cursor-pointer"
       >
         Add
       </button>

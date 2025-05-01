@@ -16,8 +16,8 @@ This project is lightweight and ideal for learning Vue 3 state management and ba
 ## Recommended Setup
 
 ```sh
-git clone (https://github.com/Tarek1517/task-manager-application.git)
-
+git clone https://github.com/Tarek1517/task-manager-application.git
+```
 ## Project Setup
 
 ```sh
