@@ -1,14 +1,22 @@
-# task-manager-application
+# 📝 Task Manager Application
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and responsive task manager built with **Vue 3**, **Pinia**, and **Tailwind CSS**.  
+It allows users to:
+
+- ✅ Add new tasks  
+- 🗂️ Filter tasks (All / Completed / Incomplete)  
+- ✔️ Mark tasks as complete/incomplete  
+- 🗑️ Delete tasks  
+
+Tasks are stored in **localStorage**, so they persist across sessions.  
+This project is lightweight and ideal for learning Vue 3 state management and basic UI interactivity.
+
+---
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+```sh
+git clone (https://github.com/Tarek1517/Task_Manager_application.git)
 
 ## Project Setup
 
